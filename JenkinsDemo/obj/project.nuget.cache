@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "gTqslfI3dMeEfHTrMn/EUR0pekkCKVW1KnIDvKxIrOc0DZv7zUkD2sCnc55uuIP5M55tBGQza0h53Ykr65a4OA==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\JenkinsDemo\\JenkinsDemo\\JenkinsDemo\\JenkinsDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhengpeng\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\zhengpeng\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\zhengpeng\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\zhengpeng\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.1\\swashbuckle.aspnetcore.6.2.1.nupkg.sha512",
+    "C:\\Users\\zhengpeng\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.1\\swashbuckle.aspnetcore.swagger.6.2.1.nupkg.sha512",
+    "C:\\Users\\zhengpeng\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.1\\swashbuckle.aspnetcore.swaggergen.6.2.1.nupkg.sha512",
+    "C:\\Users\\zhengpeng\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.1\\swashbuckle.aspnetcore.swaggerui.6.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
