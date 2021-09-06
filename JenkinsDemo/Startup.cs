@@ -55,7 +55,6 @@ namespace JenkinsDemo
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "JenkinsDemo v1");
             });
-
             app.UseRouting();
 
             app.UseAuthorization();

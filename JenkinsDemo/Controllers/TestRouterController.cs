@@ -7,14 +7,15 @@ using System.Threading.Tasks;
 namespace JenkinsDemo.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class HelloController : ControllerBase
+    [Route("api/TestRouter")]
+    public class TestRouterController : ControllerBase
     {
         /// <summary>
         /// Get方法
         /// </summary>
         /// <returns></returns>
         [HttpGet]
+        [Route("funGet")]
         public List<string> Get()
         {
             return new List<string>() { "this is get" };
@@ -25,9 +26,21 @@ namespace JenkinsDemo.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost]
+        [Route("funPost")]
         public List<string> Post()
         {
             return new List<string>() { "this is post" };
+        }
+
+        /// <summary>
+        /// 修改
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("updateInfo")]
+        public string UpdateInfo()
+        {
+            return "1";
         }
 
         /// <summary>
@@ -35,6 +48,7 @@ namespace JenkinsDemo.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPut]
+        [Route("funPut")]
         public List<string> Put()
         {
             return new List<string>() { "this is put" };
@@ -45,7 +59,8 @@ namespace JenkinsDemo.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpDelete]
-        public List<string> Delete(string id)
+        [Route("funPut")]
+        public List<string> Delete()
         {
             return new List<string>() { "this is delete" };
         }
