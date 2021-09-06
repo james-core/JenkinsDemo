@@ -17,7 +17,7 @@ namespace JenkinsDemo.Controllers
         [HttpGet]
         public List<string> Get()
         {
-            return new List<string>(){ "this is get"};
+            return new List<string>() { "this is get" };
         }
 
         /// <summary>
@@ -48,6 +48,16 @@ namespace JenkinsDemo.Controllers
         public List<string> Delete()
         {
             return new List<string>() { "this is delete" };
+        }
+
+        /// <summary>
+        /// 修改
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public bool Update()
+        {
+            return true;
         }
     }
 }
