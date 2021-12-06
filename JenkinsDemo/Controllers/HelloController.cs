@@ -50,5 +50,11 @@ namespace JenkinsDemo.Controllers
             return new List<string>() { "this is delete" };
         }
 
+        [HttpPost("{id}")]   // GET /api/test2/xyz
+        public bool update(string id)
+        {
+            return true;
+        }
+
     }
 }

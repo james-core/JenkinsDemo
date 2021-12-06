@@ -10,12 +10,16 @@ using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using JenkinsDemo.Extensions;
 
 namespace JenkinsDemo
 {
     public class Startup
     {
+        private IServiceCollection _services;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -26,6 +30,8 @@ namespace JenkinsDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddRabbitMQSetup();
+
             // Ìí¼ÓSwagger
             services.AddSwaggerGen(c =>
             {
@@ -39,6 +45,9 @@ namespace JenkinsDemo
 
             services.AddControllers();
 
+            _services = services;
+
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

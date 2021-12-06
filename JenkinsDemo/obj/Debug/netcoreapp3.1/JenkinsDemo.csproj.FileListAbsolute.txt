@@ -10,7 +10,6 @@ D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\bin\Debug\netcoreapp3.1\Microsoft.Op
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.csprojAssemblyReference.cache
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.AssemblyInfoInputs.cache
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.AssemblyInfo.cs
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.csproj.CoreCompileInputs.cache
@@ -24,3 +23,7 @@ D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.dll
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.pdb
 D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.genruntimeconfig.cache
+D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\bin\Debug\netcoreapp3.1\Polly.dll
+D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\Code\JenkinsDemo\JenkinsDemo\JenkinsDemo\obj\Debug\netcoreapp3.1\JenkinsDemo.csprojAssemblyReference.cache
